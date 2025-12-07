@@ -1,0 +1,106 @@
+.land {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding-top: 10px;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.one_land{
+    
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.two_land{
+    
+    height: 80vh;
+}
+.one_land_things{
+        align-content: center;
+        font-family: "Science Gothic", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold   ;
+        font-size: 3rem;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "CTRS" 0;
+      
+}
+.card_section{
+    background-color: #f8f9fa;
+    padding: 50px;
+    justify-content: space-between ;
+}
+.text{
+    text-align: center;
+    font-size: large;
+    font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+.text1{
+  font-size: 3rem; 
+  font-weight:100;
+
+}
+.text2{
+  font-size: 2rem; 
+  font-weight:100;
+
+}
+
+.reviews{
+    padding-top: 50px;
+}
+.image{
+    padding: 30px;
+    display: flex;
+    flex-basis: 200px;
+    justify-content: space-around;
+    
+}
+.image>img{
+  margin: 50px;
+}
+
+
+.priceCatalog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+
+.footer_one{
+  display: flex;
+  justify-content: flex-start;
+}
+.footer_two{
+  display: flex;
+  justify-content: space-between;
+}
+@media(max-width:1000px){
+  .image{
+    display: block;
+  }
+}
+li{
+  list-style-type: none;
+}
